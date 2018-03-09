@@ -1,2 +1,0 @@
-# conversation
-SpeechRec operation verification
