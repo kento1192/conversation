@@ -5,7 +5,7 @@ CURRENT_DIR=`pwd`
 
 export LD_LIBRARY_PATH=${CURRENT_DIR}/lib/:
 export VRG_CLIENT_CA_PATH=/etc/pki/tls/certs/ca-bundle.crt
-export LD_LIBRARY_PATH=./:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=./libs/x86_64:$LD_LIBRARY_PATH
 
 usage_exit() {
   echo "Usage: $0 [-u url] [-p port] [-d domain] [-k key] [-f file] [-m mode] [-l level] [-c] [-n]" 1>&2
