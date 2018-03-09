@@ -1,0 +1,12 @@
+#!/bin/bash
+
+time curl -o encoding_sounds.txt  -H "Accept: application/json" -H "Content-type:application/json" -X POST -d '{"Command": "AP_Synth", "SpeakerID":"000-00-0-001", "TextData": "input_voice"}' https://corevo-api.xfarm.jp:8443/FVC/FutureVoiceCrayon/scripts/TTSWebAPI.cgi?apikey=l7xx1a95ebe9fddc4904a4edbdedf1c626dc
+
+time base64 -d encoding_sounds.txt > decoding_sounds.wav
+
+
+echo "decoding_sounds.wav=input_voice"
+
+aplay decoding_sounds.wav
+
+
