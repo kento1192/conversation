@@ -31,7 +31,7 @@
 
 1. Switching to Python 2.7 environment
 <pre>
-* scl enable python27 bash
+# scl enable python27 bash
 </pre>
 2. Program execution
 <pre>
