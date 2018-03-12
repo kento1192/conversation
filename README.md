@@ -50,7 +50,7 @@
 ### Note
 * Please grant execute permission to the file as necessary 
 * Supported only with CentOS6.8
-  * ※Not verified on other Linux OS
+  * ※Not verified on other Linux OS
 * The COREVO-API library is registered in ./libs:/usr/local/lib64
   * ※I am passing the path here at AsrTestDriver.sh
 > export LD_LIBRARY_PATH=./libs:/usr/local/lib64
