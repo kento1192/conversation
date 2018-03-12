@@ -29,22 +29,22 @@
 
 ### How to use
 
-* Switching to Python 2.7 environment
+1. Switching to Python 2.7 environment
 <pre>
 * scl enable python27 bash
 </pre>
-* Program execution
+2. Program execution
 <pre>
 # ./speaker.sh
 </pre>
 
 ### Rough Process flow
 
-* recording
-* Text recorded the recorded sound
-* Extract corresponding answer
-* Audio file creation
-* Play audio file
+1. recording
+2. Text recorded the recorded sound
+3. Extract corresponding answer
+4. Audio file creation
+5. Play audio file
 
 ### Note
 
