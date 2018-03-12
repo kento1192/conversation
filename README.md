@@ -58,7 +58,7 @@
 * voice.txt
   * Text converted to sound input from microphone
 * Question_Trust.txt
-  * The extracted question contents
+  * The extracted question contents
 * decoding_sounds.wav
   * Audio file to respond to questions
 
