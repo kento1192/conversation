@@ -36,7 +36,7 @@
 </pre>
 2. Program execution
 <pre>
-# ./speaker.sh
+# ./speake.sh
 </pre>
 
 ### Rough Process flow
