@@ -49,15 +49,15 @@
 ### Note
 * Please grant execute permission to the file as necessary 
 * The COREVO-API library is registered in ./libs:/usr/local/lib64
-** ※I am passing the path here at AsrTestDriver.sh
+  * ※I am passing the path here at AsrTestDriver.sh
 > export LD_LIBRARY_PATH=./libs:/usr/local/lib64
 
 ### Output file
 * record.wav
-** Audio input from the microphone
+  * Audio input from the microphone
 * voice.txt
-** Text converted to sound input from microphone
+  * Text converted to sound input from microphone
 * decoding_sounds.wav
-** Audio file to respond to questions
+  * Audio file to respond to questions
 
 
