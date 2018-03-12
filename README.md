@@ -29,22 +29,22 @@ h2. Setup procedure
 
 h2. How to use
 
-# Switching to Python 2.7 environment
+* Switching to Python 2.7 environment
 <pre>
-# scl enable python27 bash
+* scl enable python27 bash
 </pre>
-# Program execution
+* Program execution
 <pre>
 # ./speaker.sh
 </pre>
 
 h2. Rough Process flow
 
-# recording
-# Text recorded the recorded sound
-# Extract corresponding answer
-# Audio file creation
-# Play audio file
+* recording
+* Text recorded the recorded sound
+* Extract corresponding answer
+* Audio file creation
+* Play audio file
 
 h2. Note
 
