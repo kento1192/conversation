@@ -1,8 +1,8 @@
-h1.  conversation
+## conversation
 
 * SpeechRec operation verification
 
-h2. Setup procedure
+### Setup procedure
 
 * Install required packages
 <pre>
@@ -27,7 +27,7 @@ h2. Setup procedure
 # pip install numpy gh1.  conversation
 </pre>
 
-h2. How to use
+### How to use
 
 * Switching to Python 2.7 environment
 <pre>
@@ -38,7 +38,7 @@ h2. How to use
 # ./speaker.sh
 </pre>
 
-h2. Rough Process flow
+### Rough Process flow
 
 * recording
 * Text recorded the recorded sound
@@ -46,7 +46,7 @@ h2. Rough Process flow
 * Audio file creation
 * Play audio file
 
-h2. Note
+### Note
 
 * Three COREVO-API libraries are registered with conversation/libs/
 ** ※AsrTestDriver.shでここにパスを通してる
