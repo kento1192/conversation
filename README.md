@@ -10,6 +10,8 @@
 # yum groupinstall -y "Development tools"
 # yum install -y http://packages.groonga.org/centos/groonga-release-1.1.0-1.noarch.rpm
 # yum install -y mecab mecab-devel mecab-ipadic alsa-utils
+# yum install -y mecab-ipadic-utf8
+
 </pre>
 * Installing OpenSSL 1.0.2
 <pre>
